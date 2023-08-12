@@ -2,6 +2,12 @@
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
+    font: 13px/27px Roboto,Arial,sans-serif;
+}
+
+.submit-center {
+    display: block;
+    text-align: -webkit-center;
     
 }
 
@@ -29,3 +35,38 @@ a:link {
   a:active {
     color: black;
   }
+
+.make-center-google {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.round-input {
+    display: flex;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    margin: auto;
+    width: 584px;
+    max-width: 584px;
+    margin-top: 5%;
+}
+
+.button-google {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
