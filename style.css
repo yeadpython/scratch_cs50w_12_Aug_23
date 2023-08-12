@@ -39,7 +39,7 @@ a:link {
 .make-center-google {
     display: flex;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 7%;
 }
 
 .round-input {
@@ -51,7 +51,7 @@ a:link {
     margin: auto;
     width: 584px;
     max-width: 584px;
-    margin-top: 5%;
+    margin-top: 25px;
 }
 
 .button-google {
@@ -61,7 +61,7 @@ a:link {
     color: #3c4043;
     font-family: arial,sans-serif;
     font-size: 14px;
-    margin: 11px 4px;
+    margin: 25px 4px;
     padding: 0 16px;
     line-height: 27px;
     height: 36px;
@@ -69,4 +69,14 @@ a:link {
     text-align: center;
     cursor: pointer;
     user-select: none;
+}
+
+.advanced-search {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.border {
+    border-bottom: 1px solid #ebebeb;
 }
