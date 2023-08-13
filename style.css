@@ -2,7 +2,7 @@
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
-    font: 13px/27px Roboto,Arial,sans-serif;
+    font: 13px/27px Arial,sans-serif;
 }
 
 .submit-center {
@@ -85,8 +85,6 @@ a:link {
 .h2-advanced {
     margin: 25px 35px;
     font: 13px/27px Arial,sans-serif;
-    font-weight: inherit;
-    font-style: inherit;
     font-size: 100%;
     vertical-align: baseline;
     text-decoration: none;
@@ -118,6 +116,7 @@ a:link {
     background-color: #4d90fe;
     border: 1px solid #3079ed;
     color: #fff;
+    margin-top: 10px;
 }
 
 .button-div {
