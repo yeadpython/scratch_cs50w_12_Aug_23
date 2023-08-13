@@ -75,6 +75,7 @@ a:link {
     color: #d93025;
     font-size: 20px;
     margin: 25px 35px;
+    font: 20px Arial,sans-serif;
 }
 
 .border {
@@ -83,10 +84,44 @@ a:link {
 
 .h2-advanced {
     margin: 25px 35px;
-    font: 13px/27px Roboto,Arial,sans-serif;
+    font: 13px/27px Arial,sans-serif;
     font-weight: inherit;
     font-style: inherit;
     font-size: 100%;
     vertical-align: baseline;
     text-decoration: none;
+}
+
+.row-level-input {
+    margin: 20px 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left-input {
+    width: 200px;
+}
+
+.right-input {
+    width: 385px;
+    border-radius: 1px;
+}
+
+.form-labels {
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.button-advanced {
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+}
+
+.button-div {
+    display: flex;
+    justify-content: flex-end;
+    width: 625px;
 }
